@@ -9,7 +9,8 @@ app = Flask('')
 
 @app.route('/')
 def home():
-  return "I'm alive"
+  h = open('torpedo.html', 'r').read()
+  return h
 
 def run():
   app.run(host='0.0.0.0', port=80)
