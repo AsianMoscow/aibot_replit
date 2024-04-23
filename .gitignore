@@ -165,3 +165,5 @@ telegram_bot/database/FileDatabase/Database.db
 Database.db
 logs
 /main.py.py
+/log.txt
+/trash.py
